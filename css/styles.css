@@ -1,0 +1,30 @@
+.table {
+  display: flex;
+  border: 2.5px solid;
+}
+
+.column {
+  flex: 1;
+  border: 2.5px solid;
+  margin: 5px;
+  max-height: 97vh;
+  overflow: scroll;
+}
+.column .header {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.column .participant {
+  color: green;
+}
+.column .participant a {
+  text-decoration: line-through;
+  color: green;
+}
+.column .not-participant {
+  color: red;
+}
+
+.hide {
+  display: none;
+}
